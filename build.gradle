@@ -1,0 +1,25 @@
+import java.text.SimpleDateFormat
+
+apply plugin: 'java'
+apply plugin: 'maven-publish'
+version '1.0'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+jar.baseName = 'connect'
+
+repositories { mavenLocal() }
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            groupId= 'com.gmail.leonidov.lex'
+            version = new SimpleDateFormat('yyyyMMddHHmm').format(new Date())
+            from components.java
+            publishToMavenLocal
+        }
+    }
+}
+
+task install(dependsOn: publishToMavenLocal)
