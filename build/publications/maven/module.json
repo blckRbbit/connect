@@ -25,8 +25,8 @@
       },
       "files": [
         {
-          "name": "connect-202212241443.jar",
-          "url": "connect-202212241443.jar",
+          "name": "connect-1.0.0-RC.jar",
+          "url": "connect-1.0.0-RC.jar",
           "size": 1551,
           "sha512": "915f537dbb1092283e1b2bb964616d7a348e99ab1c070eebf8620b707278038cad3e7ac42821c41926ec0c755890ed6b164abf05aa29980d2aef945f643ce6bf",
           "sha256": "e1f3e025c3632ac8752ce0c9d810c8092f6865b621aa116330929322b30bd657",
@@ -46,8 +46,8 @@
       },
       "files": [
         {
-          "name": "connect-202212241443.jar",
-          "url": "connect-202212241443.jar",
+          "name": "connect-1.0.0-RC.jar",
+          "url": "connect-1.0.0-RC.jar",
           "size": 1551,
           "sha512": "915f537dbb1092283e1b2bb964616d7a348e99ab1c070eebf8620b707278038cad3e7ac42821c41926ec0c755890ed6b164abf05aa29980d2aef945f643ce6bf",
           "sha256": "e1f3e025c3632ac8752ce0c9d810c8092f6865b621aa116330929322b30bd657",
@@ -66,8 +66,8 @@
       },
       "files": [
         {
-          "name": "connect-202212241443-sources.jar",
-          "url": "connect-202212241443-sources.jar",
+          "name": "connect-1.0.0-RC-sources.jar",
+          "url": "connect-1.0.0-RC-sources.jar",
           "size": 805,
           "sha512": "5c4341071c8dfc10f05c96ace7a0f16ec18cb6663fc2cee76445b76f192de1e0acc5bb672d78169f64ec99fc0fa08e6e74131ac2637751aa5a0f932bd55608e5",
           "sha256": "86baba439ad6b1421eb7289ad73862e9154a494ad59ab00495e40d9c86cde416",
@@ -86,8 +86,8 @@
       },
       "files": [
         {
-          "name": "connect-202212241443-javadoc.jar",
-          "url": "connect-202212241443-javadoc.jar",
+          "name": "connect-1.0.0-RC-javadoc.jar",
+          "url": "connect-1.0.0-RC-javadoc.jar",
           "size": 18037,
           "sha512": "88334b2e5f0dcc151c810d6c73967cb4d5c7486081e1577309673c86ba66c8189909043e29c4d3b6bc7f33c2e35e8bf9b00941f13406a1712e56c4a5014f60b5",
           "sha256": "d3feccbe583c2d22dd6b61cce8808376cacfbbc21971fe8b5a98943ae07c42f1",

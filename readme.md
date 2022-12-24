@@ -6,12 +6,21 @@ The library describes client-server connections in java, without using SpringFra
 
 ## Installation
 
-[![](https://jitpack.io/v/Evleaps/SafeCoroutines.svg)](https://jitpack.io/#Evleaps/SafeCoroutines)
+[![](https://jitpack.io/v/blckRbbit/connect.svg)](https://jitpack.io/#blckRbbit/connect)
 
 Add Dependencies
 
 ```groovy
-  
+  allprojects {
+        repositories {
+            // ...
+            maven { url 'https://jitpack.io' }
+        }
+    }
+
+    dependencies {
+	        implementation 'com.github.blckRbbit:connect:Tag'
+	}
 ```
 
 ## Examples

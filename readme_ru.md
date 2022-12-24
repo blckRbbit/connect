@@ -6,12 +6,21 @@
 
 ## Установка
 
-[![](https://jitpack.io/v/Evleaps/SafeCoroutines.svg)](https://jitpack.io/#Evleaps/SafeCoroutines)
+[![](https://jitpack.io/v/blckRbbit/connect.svg)](https://jitpack.io/#blckRbbit/connect)
 
 Добавьте зависимости
 
 ```groovy
-  
+  allprojects {
+        repositories {
+            // ...
+            maven { url 'https://jitpack.io' }
+        }
+    }
+
+    dependencies {
+	        implementation 'com.github.blckRbbit:connect:Tag'
+	}
 ```
 
 ## Примеры
