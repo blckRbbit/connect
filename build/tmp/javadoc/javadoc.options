@@ -1,7 +1,7 @@
 -classpath 'D:\\code\\javaProjects\\independently\\TestTasks\\connect\\build\\classes\\java\\main;D:\\code\\javaProjects\\independently\\TestTasks\\connect\\build\\resources\\main'
 -d 'D:\\code\\javaProjects\\independently\\TestTasks\\connect\\build\\docs\\javadoc'
--doctitle 'connect 1.0.1-RC API'
+-doctitle 'connect 1.0.3 API'
 -notimestamp 
 -quiet 
--windowtitle 'connect 1.0.1-RC API'
+-windowtitle 'connect 1.0.3 API'
 'D:\\code\\javaProjects\\independently\\TestTasks\\connect\\src\\main\\java\\Connect.java'

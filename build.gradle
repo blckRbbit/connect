@@ -7,19 +7,24 @@ plugins {
 
 apply plugin: 'java'
 apply plugin: 'maven-publish'
-version '1.0.3'
+version '1.0.4'
 //version '1.0.0'
 
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
 jar.baseName = 'connect'
-
-repositories {
-    mavenCentral()
-//    mavenLocal()
-//    maven { url 'https://jitpack.io' }
+allprojects {
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
 }
+//repositories {
+//    mavenCentral()
+////    mavenLocal()
+////    maven { url 'https://jitpack.io' }
+//}
 
 java {
     withSourcesJar()
